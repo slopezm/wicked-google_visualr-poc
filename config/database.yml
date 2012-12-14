@@ -1,0 +1,15 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: wicked-google_visualr-poc_development
+  pool: 5
+  username: wicked-google_visualr-poc
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: wicked-google_visualr-poc_test
+  pool: 5
+  username: wicked-google_visualr-poc
+  password:

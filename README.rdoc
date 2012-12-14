@@ -1,0 +1,16 @@
+== WickedPDF + GoogleVisualr Proof of concept
+
+This is a Proof of Concept (POC) app to see how WickedPDF plays with GoogleVisualr
+
+
+== Required Gems
+
+[GoogleVisualr](https://github.com/winston/google_visualr)
+
+[WickedPDF](https://github.com/mileszs/wicked_pdf)
+
+== The Trick
+
+Take a look at the code in /app/controllers/sample_controller.rb
+
+The `:redirect_delay => 3000` is what lets the JS render
